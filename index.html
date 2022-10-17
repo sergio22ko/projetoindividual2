@@ -6,20 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
 </head>
 <body>
-    <div class="container">
+
 <h1>cifra de cesar e base64</h1>
-<h2>coloque texto aqui</h2>
-<input type="text" id="frame" name="frame" value=""><br>
-<input id="" type="submit" value="submit"> 
 
+<div class="container">
+    <input id="inputTexto1">
+    <select name="selecao" id="selecao">
+    <option value="base64">base64</option>
+    <option value="cesar">Cesar</option>
+    </select>
+    <br>
+    <button onclick="funcaoDeClicar()" id="submit">decodificar</button>
+    <button onclick="funcaoDeClicar()" id="submit">codificar</button>
+    <br>
+    <input id="inputTexto2">
+</div>
 
-
-
-
-
-    </div>
-    <script src="main.js"></script>
 </body>
 </html>

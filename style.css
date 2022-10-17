@@ -1,0 +1,24 @@
+body{
+    background-color: aqua;
+}
+h1{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 110px;
+}
+.container input{
+    width: 20pc;
+    height: 20pc;
+}
+.container button{
+    padding: 10px 8px;
+}
